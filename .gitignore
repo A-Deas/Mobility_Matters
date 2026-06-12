@@ -1,0 +1,9 @@
+# Always ignore all the DS_stores
+.DS_Store
+
+# Ignore the large data parquet files, we scp these over
+Data/PM2.5/*.parquet
+Data/PM2.5_FullYear/*.parquet
+
+# # Output/*
+Difference Metrics/*.parquet

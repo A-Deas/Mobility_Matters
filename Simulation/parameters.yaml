@@ -1,0 +1,10 @@
+stop.at: 167
+
+# Bounding box around the state of Utah
+min_lon: -114 
+max_lon: -109
+min_lat: 37
+max_lat: 42
+
+pollution_file: PM2.5/conus_pm25_2019_filtered.parquet
+activity_schedules_folder: Synthetic Population/
