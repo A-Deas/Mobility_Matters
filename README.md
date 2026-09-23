@@ -22,13 +22,11 @@ conda activate utah_abm
 
 The analysis scripts use relative file paths and are intended to be run from the root of the repository.
 
-For example:
+Before running the scripts, navigate to the `Mobility_Matters` directory:
 
 ```text
 .../Mobility_Matters/
 ```
-
-Before running the scripts, navigate to the `Mobility_Matters` directory.
 
 ## Repository structure
 
@@ -48,11 +46,11 @@ The analysis code uses shapefiles by default. Users who prefer GeoPackage files 
 
 ### `Shapefiles/`
 
-Contains the spatial files used by the plotting scripts.
+Contains the shapefiles used by the plotting scripts.
 
 ### `GeoPackages/`
 
-Contains GeoPackage versions of the spatial datasets provided in `Shapefiles/`.
+Contains GeoPackage versions of the spatial files provided in `Shapefiles/`.
 
 These files are included as an alternative spatial-data format for users who prefer GeoPackage.
 
@@ -66,35 +64,35 @@ Contains dataframe heads showing the basic structure of the datasets used throug
 
 These files are intended to help users understand the data formats.
 
-### `Wildfire_Investigation/'
+### `Wildfire_Investigation/`
 
-The repository includes a folder containing supporting analyses and results used to investigate the wildfire smoke event examined in the study.
+Contains supporting analyses and results used to investigate the wildfire smoke event examined in the study.
 
 ### `Mobility_Agent_Type_Comparison/`
 
-The repository includes a dedicated folder containing the scripts and supporting outputs used to compare exposure-difference metrics across agent types and alongside mobility measures.
+Contains the scripts and supporting outputs used to compare exposure-difference metrics across agent types and alongside mobility measures.
 
-### `Health_Impact_Calculations/'
+### `Health_Impact_Calculations/`
 
-The repository includes a dedicated folder containing the scripts and outputs used to calculate and compare modeled attributable fractions under the static and dynamic exposure-estimation methods.
+Contains the scripts and outputs used to calculate and compare modeled attributable fractions under the static and dynamic exposure-estimation methods.
 
 ## Basic workflow
 
 A typical reproduction workflow is:
 
-1. Create and activate the environment using `environment.yml`.
+1. Create and activate the conda environment using `environment.yml`.
 
 2. Navigate to the root `Mobility_Matters` directory.
 
 3. Run the main simulation via `Simulation/simulation.py`.
 
-4. Impute exposures during scheduled travel activities via `Simulation/simulation_impute_travel.py`.
+4. Impute exposures during scheduled travel hours via `Simulation/simulation_impute_travel.py`.
 
 5. Calculate the exposure-difference metrics via `Simulation/calculate_difference_metrics.py`.
 
 6. Run the downstream analyses described above.
 
-Because the primary datasets are not included in this repository, the required data must be obtained separately before the full workflow can be reproduced.
+As the primary datasets are not included in this repository, the required data must be obtained separately before the full workflow can be reproduced.
 
 ## Data availability
 
