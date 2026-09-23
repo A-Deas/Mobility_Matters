@@ -1,0 +1,194 @@
+
+Travel exposure interpolation started: 2026-08-24 13:12:00
+
+Creating agent index...
+Unique agents: 3,087,477
+
+Creating empty SimulationResults_ImputedTravel table...
+SimulationResults_ImputedTravel structure successfully created.
+
+Processing agents in batches of 25,000...
+Processed agents 1 - 25,000 of 3,087,477 | Batch runtime: 00:00:32
+Processed agents 25,001 - 50,000 of 3,087,477 | Batch runtime: 00:00:32
+Processed agents 50,001 - 75,000 of 3,087,477 | Batch runtime: 00:00:21
+Processed agents 75,001 - 100,000 of 3,087,477 | Batch runtime: 00:00:20
+Processed agents 100,001 - 125,000 of 3,087,477 | Batch runtime: 00:00:21
+Processed agents 125,001 - 150,000 of 3,087,477 | Batch runtime: 00:00:20
+Processed agents 150,001 - 175,000 of 3,087,477 | Batch runtime: 00:00:26
+Processed agents 175,001 - 200,000 of 3,087,477 | Batch runtime: 00:00:21
+Processed agents 200,001 - 225,000 of 3,087,477 | Batch runtime: 00:00:21
+Processed agents 225,001 - 250,000 of 3,087,477 | Batch runtime: 00:00:20
+Processed agents 250,001 - 275,000 of 3,087,477 | Batch runtime: 00:00:20
+Processed agents 275,001 - 300,000 of 3,087,477 | Batch runtime: 00:00:20
+Processed agents 300,001 - 325,000 of 3,087,477 | Batch runtime: 00:00:21
+Processed agents 325,001 - 350,000 of 3,087,477 | Batch runtime: 00:00:20
+Processed agents 350,001 - 375,000 of 3,087,477 | Batch runtime: 00:00:20
+Processed agents 375,001 - 400,000 of 3,087,477 | Batch runtime: 00:00:20
+Processed agents 400,001 - 425,000 of 3,087,477 | Batch runtime: 00:00:21
+Processed agents 425,001 - 450,000 of 3,087,477 | Batch runtime: 00:00:20
+Processed agents 450,001 - 475,000 of 3,087,477 | Batch runtime: 00:00:20
+Processed agents 475,001 - 500,000 of 3,087,477 | Batch runtime: 00:00:20
+Processed agents 500,001 - 525,000 of 3,087,477 | Batch runtime: 00:00:20
+Processed agents 525,001 - 550,000 of 3,087,477 | Batch runtime: 00:00:21
+Processed agents 550,001 - 575,000 of 3,087,477 | Batch runtime: 00:00:21
+Processed agents 575,001 - 600,000 of 3,087,477 | Batch runtime: 00:00:21
+Processed agents 600,001 - 625,000 of 3,087,477 | Batch runtime: 00:00:21
+Processed agents 625,001 - 650,000 of 3,087,477 | Batch runtime: 00:00:22
+Processed agents 650,001 - 675,000 of 3,087,477 | Batch runtime: 00:00:20
+Processed agents 675,001 - 700,000 of 3,087,477 | Batch runtime: 00:00:21
+Processed agents 700,001 - 725,000 of 3,087,477 | Batch runtime: 00:00:21
+Processed agents 725,001 - 750,000 of 3,087,477 | Batch runtime: 00:00:21
+Processed agents 750,001 - 775,000 of 3,087,477 | Batch runtime: 00:00:22
+Processed agents 775,001 - 800,000 of 3,087,477 | Batch runtime: 00:00:21
+Processed agents 800,001 - 825,000 of 3,087,477 | Batch runtime: 00:00:20
+Processed agents 825,001 - 850,000 of 3,087,477 | Batch runtime: 00:00:21
+Processed agents 850,001 - 875,000 of 3,087,477 | Batch runtime: 00:00:21
+Processed agents 875,001 - 900,000 of 3,087,477 | Batch runtime: 00:00:20
+Processed agents 900,001 - 925,000 of 3,087,477 | Batch runtime: 00:00:21
+Processed agents 925,001 - 950,000 of 3,087,477 | Batch runtime: 00:00:20
+Processed agents 950,001 - 975,000 of 3,087,477 | Batch runtime: 00:00:21
+Processed agents 975,001 - 1,000,000 of 3,087,477 | Batch runtime: 00:00:20
+Processed agents 1,000,001 - 1,025,000 of 3,087,477 | Batch runtime: 00:00:21
+Processed agents 1,025,001 - 1,050,000 of 3,087,477 | Batch runtime: 00:00:21
+Processed agents 1,050,001 - 1,075,000 of 3,087,477 | Batch runtime: 00:00:20
+Processed agents 1,075,001 - 1,100,000 of 3,087,477 | Batch runtime: 00:00:20
+Processed agents 1,100,001 - 1,125,000 of 3,087,477 | Batch runtime: 00:00:21
+Processed agents 1,125,001 - 1,150,000 of 3,087,477 | Batch runtime: 00:00:20
+Processed agents 1,150,001 - 1,175,000 of 3,087,477 | Batch runtime: 00:00:20
+Processed agents 1,175,001 - 1,200,000 of 3,087,477 | Batch runtime: 00:00:20
+Processed agents 1,200,001 - 1,225,000 of 3,087,477 | Batch runtime: 00:00:21
+Processed agents 1,225,001 - 1,250,000 of 3,087,477 | Batch runtime: 00:00:21
+Processed agents 1,250,001 - 1,275,000 of 3,087,477 | Batch runtime: 00:00:22
+Processed agents 1,275,001 - 1,300,000 of 3,087,477 | Batch runtime: 00:00:21
+Processed agents 1,300,001 - 1,325,000 of 3,087,477 | Batch runtime: 00:00:22
+Processed agents 1,325,001 - 1,350,000 of 3,087,477 | Batch runtime: 00:00:21
+Processed agents 1,350,001 - 1,375,000 of 3,087,477 | Batch runtime: 00:00:21
+Processed agents 1,375,001 - 1,400,000 of 3,087,477 | Batch runtime: 00:00:21
+Processed agents 1,400,001 - 1,425,000 of 3,087,477 | Batch runtime: 00:00:21
+Processed agents 1,425,001 - 1,450,000 of 3,087,477 | Batch runtime: 00:00:20
+Processed agents 1,450,001 - 1,475,000 of 3,087,477 | Batch runtime: 00:00:21
+Processed agents 1,475,001 - 1,500,000 of 3,087,477 | Batch runtime: 00:00:21
+Processed agents 1,500,001 - 1,525,000 of 3,087,477 | Batch runtime: 00:00:21
+Processed agents 1,525,001 - 1,550,000 of 3,087,477 | Batch runtime: 00:00:21
+Processed agents 1,550,001 - 1,575,000 of 3,087,477 | Batch runtime: 00:00:21
+Processed agents 1,575,001 - 1,600,000 of 3,087,477 | Batch runtime: 00:00:21
+Processed agents 1,600,001 - 1,625,000 of 3,087,477 | Batch runtime: 00:00:21
+Processed agents 1,625,001 - 1,650,000 of 3,087,477 | Batch runtime: 00:00:20
+Processed agents 1,650,001 - 1,675,000 of 3,087,477 | Batch runtime: 00:00:21
+Processed agents 1,675,001 - 1,700,000 of 3,087,477 | Batch runtime: 00:00:20
+Processed agents 1,700,001 - 1,725,000 of 3,087,477 | Batch runtime: 00:00:20
+Processed agents 1,725,001 - 1,750,000 of 3,087,477 | Batch runtime: 00:00:20
+Processed agents 1,750,001 - 1,775,000 of 3,087,477 | Batch runtime: 00:00:20
+Processed agents 1,775,001 - 1,800,000 of 3,087,477 | Batch runtime: 00:00:21
+Processed agents 1,800,001 - 1,825,000 of 3,087,477 | Batch runtime: 00:00:20
+Processed agents 1,825,001 - 1,850,000 of 3,087,477 | Batch runtime: 00:00:20
+Processed agents 1,850,001 - 1,875,000 of 3,087,477 | Batch runtime: 00:00:20
+Processed agents 1,875,001 - 1,900,000 of 3,087,477 | Batch runtime: 00:00:21
+Processed agents 1,900,001 - 1,925,000 of 3,087,477 | Batch runtime: 00:00:21
+Processed agents 1,925,001 - 1,950,000 of 3,087,477 | Batch runtime: 00:00:21
+Processed agents 1,950,001 - 1,975,000 of 3,087,477 | Batch runtime: 00:00:20
+Processed agents 1,975,001 - 2,000,000 of 3,087,477 | Batch runtime: 00:00:20
+Processed agents 2,000,001 - 2,025,000 of 3,087,477 | Batch runtime: 00:00:20
+Processed agents 2,025,001 - 2,050,000 of 3,087,477 | Batch runtime: 00:00:20
+Processed agents 2,050,001 - 2,075,000 of 3,087,477 | Batch runtime: 00:00:35
+Processed agents 2,075,001 - 2,100,000 of 3,087,477 | Batch runtime: 00:00:21
+Processed agents 2,100,001 - 2,125,000 of 3,087,477 | Batch runtime: 00:00:21
+Processed agents 2,125,001 - 2,150,000 of 3,087,477 | Batch runtime: 00:00:22
+Processed agents 2,150,001 - 2,175,000 of 3,087,477 | Batch runtime: 00:00:21
+Processed agents 2,175,001 - 2,200,000 of 3,087,477 | Batch runtime: 00:00:20
+Processed agents 2,200,001 - 2,225,000 of 3,087,477 | Batch runtime: 00:00:21
+Processed agents 2,225,001 - 2,250,000 of 3,087,477 | Batch runtime: 00:00:21
+Processed agents 2,250,001 - 2,275,000 of 3,087,477 | Batch runtime: 00:00:20
+Processed agents 2,275,001 - 2,300,000 of 3,087,477 | Batch runtime: 00:00:21
+Processed agents 2,300,001 - 2,325,000 of 3,087,477 | Batch runtime: 00:00:22
+Processed agents 2,325,001 - 2,350,000 of 3,087,477 | Batch runtime: 00:00:21
+Processed agents 2,350,001 - 2,375,000 of 3,087,477 | Batch runtime: 00:00:20
+Processed agents 2,375,001 - 2,400,000 of 3,087,477 | Batch runtime: 00:00:20
+Processed agents 2,400,001 - 2,425,000 of 3,087,477 | Batch runtime: 00:00:21
+Processed agents 2,425,001 - 2,450,000 of 3,087,477 | Batch runtime: 00:00:21
+Processed agents 2,450,001 - 2,475,000 of 3,087,477 | Batch runtime: 00:00:22
+Processed agents 2,475,001 - 2,500,000 of 3,087,477 | Batch runtime: 00:00:20
+Processed agents 2,500,001 - 2,525,000 of 3,087,477 | Batch runtime: 00:00:20
+Processed agents 2,525,001 - 2,550,000 of 3,087,477 | Batch runtime: 00:00:20
+Processed agents 2,550,001 - 2,575,000 of 3,087,477 | Batch runtime: 00:00:20
+Processed agents 2,575,001 - 2,600,000 of 3,087,477 | Batch runtime: 00:00:20
+Processed agents 2,600,001 - 2,625,000 of 3,087,477 | Batch runtime: 00:00:20
+Processed agents 2,625,001 - 2,650,000 of 3,087,477 | Batch runtime: 00:00:21
+Processed agents 2,650,001 - 2,675,000 of 3,087,477 | Batch runtime: 00:00:20
+Processed agents 2,675,001 - 2,700,000 of 3,087,477 | Batch runtime: 00:00:20
+Processed agents 2,700,001 - 2,725,000 of 3,087,477 | Batch runtime: 00:00:21
+Processed agents 2,725,001 - 2,750,000 of 3,087,477 | Batch runtime: 00:00:21
+Processed agents 2,750,001 - 2,775,000 of 3,087,477 | Batch runtime: 00:00:21
+Processed agents 2,775,001 - 2,800,000 of 3,087,477 | Batch runtime: 00:00:21
+Processed agents 2,800,001 - 2,825,000 of 3,087,477 | Batch runtime: 00:00:21
+Processed agents 2,825,001 - 2,850,000 of 3,087,477 | Batch runtime: 00:00:20
+Processed agents 2,850,001 - 2,875,000 of 3,087,477 | Batch runtime: 00:00:22
+Processed agents 2,875,001 - 2,900,000 of 3,087,477 | Batch runtime: 00:00:20
+Processed agents 2,900,001 - 2,925,000 of 3,087,477 | Batch runtime: 00:00:21
+Processed agents 2,925,001 - 2,950,000 of 3,087,477 | Batch runtime: 00:00:21
+Processed agents 2,950,001 - 2,975,000 of 3,087,477 | Batch runtime: 00:00:21
+Processed agents 2,975,001 - 3,000,000 of 3,087,477 | Batch runtime: 00:00:20
+Processed agents 3,000,001 - 3,025,000 of 3,087,477 | Batch runtime: 00:00:20
+Processed agents 3,025,001 - 3,050,000 of 3,087,477 | Batch runtime: 00:00:20
+Processed agents 3,050,001 - 3,075,000 of 3,087,477 | Batch runtime: 00:00:20
+Processed agents 3,075,001 - 3,087,477 of 3,087,477 | Batch runtime: 00:00:18
+
+SimulationResults_ImputedTravel successfully created.
+
+Saving a preview...
+Saved dataframe head for preview.
+
+--- Travel Exposure Check ---
+Travel rows: 7,260,508
+Travel rows still missing dynamic exposure: 0
+Total rows missing dynamic exposure: 0
+All travel exposures successfully interpolated: True
+All dynamic exposures complete: True
+
+--- Interpolation Bounds Check ---
+Travel exposures outside origin/destination exposure range: 0
+All interpolated exposures fall between their endpoints: True
+
+--- Travel Row Preservation Check ---
+Original travel rows: 7,260,508
+Imputed travel rows: 7,260,508
+Travel row counts match: True
+
+--- Row Count Check ---
+Original SimulationResults rows: 518,696,136
+Imputed SimulationResults rows: 518,696,136
+Row counts match: True
+
+--- Non-Travel Exposure Preservation Check ---
+Non-travel exposures changed: 0
+All original non-travel exposures preserved: True
+
+--- Static Exposure Preservation Check ---
+Static exposures changed: 0
+All static exposures preserved: True
+
+--- Agent Schedule Check ---
+Agents without exactly 168 rows: 0
+All agents retain 168 rows: True
+
+--- SimulationResults_ImputedTravel Schema ---
+         column_name column_type null   key default extra
+0               p_id     VARCHAR  YES  None    None  None
+1         agent_type     VARCHAR  YES  None    None  None
+2                sex     VARCHAR  YES  None    None  None
+3                age      DOUBLE  YES  None    None  None
+4                day     VARCHAR  YES  None    None  None
+5               date        DATE  YES  None    None  None
+6           day_hour     VARCHAR  YES  None    None  None
+7               tick      BIGINT  YES  None    None  None
+8           activity     VARCHAR  YES  None    None  None
+9             h3_act     VARCHAR  YES  None    None  None
+10  dynamic_exposure      DOUBLE  YES  None    None  None
+11           h3_home     VARCHAR  YES  None    None  None
+12   static_exposure      DOUBLE  YES  None    None  None
+
+Finished! Database saved to: /Users/p5d/Documents/Python/Mobility_Matters/Data/DuckDB_Files/SimulationResults_ImputedTravel.db
+Preview saved to: /Users/p5d/Documents/Python/Mobility_Matters/Dataframe_Heads/simulation_results_imputed_travel_head.csv
+
+Total interpolation runtime: 00:59:57
+Travel exposure interpolation finished: 2026-08-24 14:11:57

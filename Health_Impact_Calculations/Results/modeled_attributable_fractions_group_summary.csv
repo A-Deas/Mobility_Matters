@@ -1,0 +1,3 @@
+agent_group,group_order,num_agents,num_agent_days,mean_daily_static_exposure,mean_daily_dynamic_exposure,mean_daily_difference
+Full Population,1,3108832,21761824,9.407135873672985,9.424762847721654,0.017626974058885414
+High-Difference,2,35565,248955,7.57214846105386,9.368819073468098,1.796670612414298

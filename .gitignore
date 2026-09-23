@@ -1,0 +1,5 @@
+# Always ignore all the DS_stores
+.DS_Store
+
+# Ignore the large data files, we scp these over
+Data/
