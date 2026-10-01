@@ -45,7 +45,7 @@ ACTIVITY_NAME_MAP = {
     "travel": "Travel",
     "change_transp": "Change of transportation",
     "other": "Other",
-    "unknown": "Unknown"
+    # "unknown": "Unknown"
 }
 
 # Raw activities (for ordering) + nice names
@@ -56,7 +56,7 @@ NICE_ACTIVITIES = [ACTIVITY_NAME_MAP[a] for a in RAW_ACTIVITIES]
 base_colors = sns.color_palette("tab20")
 indigo = (75/255, 0, 130/255)
 black = (0, 0, 0)
-custom_colors = base_colors + [indigo] + [black]
+custom_colors = base_colors + [indigo]  # [black] # [indigo] 
 
 PALETTE_DICT = dict(zip(NICE_ACTIVITIES, custom_colors))
 
